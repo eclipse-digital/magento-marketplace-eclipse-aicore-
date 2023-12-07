@@ -4,7 +4,8 @@
     "type": "magento2-module",
     "homepage": "https://github.com/eclipse-digital/magento-eclipse-aicore",
     "license": [
-        ""
+        "OSL-3.0",
+        "AFL-3.0"
     ],
     "keywords": [
         "magento2",
