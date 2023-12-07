@@ -1,0 +1,38 @@
+{
+    "name": "eclipse/module-aicore",
+    "description": "",
+    "type": "magento2-module",
+    "homepage": "https://github.com/eclipse-digital/magento-eclipse-aicore",
+    "license": [
+        ""
+    ],
+    "keywords": [
+        "magento2",
+        "chatgpt",
+        "eclipse"
+    ],
+    "authors": [
+        {
+            "name": "Szymon Łukaszewicz",
+            "email": "szymon.lukaszewicz@eclipsegroup.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~8.1",
+        "openai-php/client": "^0.8.0",
+        "eclipse/core": "^1.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Eclipse\\AiCore\\": ""
+        }
+    },
+    "support": {
+        "email": "magento@eclipsegroup.co.uk"
+    },
+    "version": "1.0.0"
+}
